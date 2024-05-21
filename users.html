@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="/assets/CSS/util.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+      <!-- ---------navbar section------- start ----------------->
+      <nav class="white z-depth-0 top_navbar">
+        <div class="nav-wrapper">
+          <a href="#!" class="blue-text darken-4 hide-on-med-and-up">Users Management</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger blue-text darken-4"><i class="material-icons">menu</i></a>
+          <ul class="hide-on-med-and-down">
+            <li><a href="/index.html" class="blue-text darken-4">Home</a></li>
+            <li><a href="/users.html" class="blue-text darken-4">User Management</a></li>
+            <li><a href="http://codeyad.com" class="blue-text darken-4">Codeyad</a></li>
+            <li><a href="http://www.youtube.com" class="blue-text darken-4">AQ Fast Learn</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+      <ul class="sidenav" id="mobile-demo">
+        <li><div class="user-view">
+          <div class="background">
+            <img src="assets/images/company.jpg" class="w-full">
+          </div>
+          <a><img class="circle" src="assets/images/profile.jpg"></a>
+          <a><span class="white-text name">sama sh</span></a>
+          <a><span class="white-text email">sama@gmail.com</span></a>
+        </div></li>
+        <li><a href="https://www.youtube.com/@aqfastlearn3109"><i class="material-icons">insert_link</i>AQ Fast Learn</a></li>
+        <li><a href="http://codeyad.com"><i class="material-icons">insert_link</i>Codeyad</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Pages</a></li>
+        <li><a class="waves-effect" href="/index.html">Home</a></li>
+        <li><a class="waves-effect" href="/users.html">users</a></li>
+      </ul>
+  <!-- ---------navbar section-------- end ------------------>
+
+  <!-- ---------content section------- start ----------------->
+      <section id="top-actions-section" class="row">
+        <!-- add button -->
+        <div class="p-l-10 p-r-10 p-t-10 col s12 m4 l2">
+            <button class="waves-effect waves-light btn blue darken-4 p-l-30 p-r-30 w-full rounded_pill flex-c">
+                <i class="material-icons m-r-5">add</i>
+                Add User 
+            </button>
+        </div>
+        <!-- search section -->
+        <div class="row col s12 m8 l8">
+            <div class="input-field col s12">
+              <input  id="search" type="text" class="validate">
+              <label for="search">
+                <i class="material-icons pos-relative top-7">search</i>
+                Search</label> 
+            </div>
+        </div>
+        <div class="col l2 hide-on-med-and-down"></div>
+
+      </section>
+
+      <section id="user-list-action">
+        <ul class="collapsible">
+          <li>
+            <div id="collapsible-header">
+              <i class="material-icons">arrow_drop_down_circle</i>
+                Sama SH
+            </div>
+            <div id="collapsible-body">
+              <div class="p-all-5">
+                <span class="f-bold">Username : </span>
+                <span> Sama </span>
+              </div>
+              <div class="p-all-5">
+                <span class="f-bold">Email : </span>
+                <span> Yase.man30@gmail.com </span>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+      </section>
+
+  <!-- ---------content section-------- end ------------------>
+  <script src="/assets/materialize/js/materialize.min.js">      </script>
+  <script src="/assets/JS/main.js"></script>
+  <script src="/assets/JS/users.js"></script>
+</body>
+</html>
